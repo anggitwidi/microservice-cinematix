@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{BD490119-66A6-40EF-A426-FE9F672F6544}|FilmManagementService\\FilmManagementService.csproj|solutionrelative:filmmanagementservice\\controllers\\filmcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BD490119-66A6-40EF-A426-FE9F672F6544}|FilmManagementService\\FilmManagementService.csproj|c:\\users\\user\\source\\repos\\filmmanagementservice\\filmmanagementservice\\data\\filmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD490119-66A6-40EF-A426-FE9F672F6544}|FilmManagementService\\FilmManagementService.csproj|solutionrelative:filmmanagementservice\\data\\filmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BD490119-66A6-40EF-A426-FE9F672F6544}|FilmManagementService\\FilmManagementService.csproj|c:\\users\\user\\source\\repos\\filmmanagementservice\\filmmanagementservice\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BD490119-66A6-40EF-A426-FE9F672F6544}|FilmManagementService\\FilmManagementService.csproj|solutionrelative:filmmanagementservice\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,8 +19,12 @@
       "RelativeMoniker": "D:0:0:{BD490119-66A6-40EF-A426-FE9F672F6544}|FilmManagementService\\FilmManagementService.csproj|solutionrelative:filmmanagementservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BD490119-66A6-40EF-A426-FE9F672F6544}|FilmManagementService\\FilmManagementService.csproj|c:\\users\\user\\source\\repos\\filmmanagementservice\\filmmanagementservice\\data\\filmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BD490119-66A6-40EF-A426-FE9F672F6544}|FilmManagementService\\FilmManagementService.csproj|solutionrelative:filmmanagementservice\\data\\filmcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BD490119-66A6-40EF-A426-FE9F672F6544}|FilmManagementService\\FilmManagementService.csproj|c:\\users\\user\\source\\repos\\filmmanagementservice\\filmmanagementservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BD490119-66A6-40EF-A426-FE9F672F6544}|FilmManagementService\\FilmManagementService.csproj|solutionrelative:filmmanagementservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD490119-66A6-40EF-A426-FE9F672F6544}|FilmManagementService\\FilmManagementService.csproj|c:\\users\\user\\source\\repos\\filmmanagementservice\\filmmanagementservice\\filmmanagementservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BD490119-66A6-40EF-A426-FE9F672F6544}|FilmManagementService\\FilmManagementService.csproj|solutionrelative:filmmanagementservice\\filmmanagementservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,46 +34,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FilmManagementService\\FilmManagementService\\Program.cs",
-              "RelativeDocumentMoniker": "FilmManagementService\\Program.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\FilmManagementService\\FilmManagementService\\Program.cs",
-              "RelativeToolTip": "FilmManagementService\\Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T15:45:26.101Z",
-              "EditorCaption": ""
+              "DocumentIndex": 5,
+              "Title": "FilmManagementService.csproj",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FilmManagementService\\FilmManagementService\\FilmManagementService.csproj",
+              "RelativeDocumentMoniker": "FilmManagementService\\FilmManagementService.csproj",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FilmManagementService\\FilmManagementService\\FilmManagementService.csproj",
+              "RelativeToolTip": "FilmManagementService\\FilmManagementService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-19T21:58:37.721Z",
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "FilmContext.cs",
               "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FilmManagementService\\FilmManagementService\\Data\\FilmContext.cs",
               "RelativeDocumentMoniker": "FilmManagementService\\Data\\FilmContext.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\FilmManagementService\\FilmManagementService\\Data\\FilmContext.cs",
               "RelativeToolTip": "FilmManagementService\\Data\\FilmContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-19T15:42:36.639Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Film.cs",
-              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FilmManagementService\\FilmManagementService\\Models\\Film.cs",
-              "RelativeDocumentMoniker": "FilmManagementService\\Models\\Film.cs",
-              "ToolTip": "C:\\Users\\user\\source\\repos\\FilmManagementService\\FilmManagementService\\Models\\Film.cs",
-              "RelativeToolTip": "FilmManagementService\\Models\\Film.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA1wBoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FilmManagementService\\FilmManagementService\\Program.cs",
+              "RelativeDocumentMoniker": "FilmManagementService\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FilmManagementService\\FilmManagementService\\Program.cs",
+              "RelativeToolTip": "FilmManagementService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-19T15:42:18.501Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-19T15:45:26.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FilmManagementService\\FilmManagementService\\appsettings.json",
+              "RelativeDocumentMoniker": "FilmManagementService\\appsettings.json",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FilmManagementService\\FilmManagementService\\appsettings.json",
+              "RelativeToolTip": "FilmManagementService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-19T22:04:44.412Z"
             },
             {
               "$type": "Document",
@@ -75,10 +94,50 @@
               "RelativeDocumentMoniker": "FilmManagementService\\Controllers\\FilmController.cs",
               "ToolTip": "C:\\Users\\user\\source\\repos\\FilmManagementService\\FilmManagementService\\Controllers\\FilmController.cs",
               "RelativeToolTip": "FilmManagementService\\Controllers\\FilmController.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwBcAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-19T15:34:28.995Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Film.cs",
+              "DocumentMoniker": "C:\\Users\\user\\source\\repos\\FilmManagementService\\FilmManagementService\\Models\\Film.cs",
+              "RelativeDocumentMoniker": "FilmManagementService\\Models\\Film.cs",
+              "ToolTip": "C:\\Users\\user\\source\\repos\\FilmManagementService\\FilmManagementService\\Models\\Film.cs",
+              "RelativeToolTip": "FilmManagementService\\Models\\Film.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T15:42:18.501Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:5:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

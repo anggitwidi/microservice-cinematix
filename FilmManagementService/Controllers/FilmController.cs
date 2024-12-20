@@ -1,25 +1,36 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using FilmMicroservice.Models;
+﻿using FilmMicroservice.Data;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
-namespace FilmManagementService.Controllers
+namespace FilmMicroservice.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class FilmController : ControllerBase
     {
-        [HttpGet]
-        public IActionResult GetFilm()
+        private readonly FilmContext _context;
+
+        public FilmController(FilmContext context)
         {
-            var film = new Film
+            _context = context;
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> GetFilms()
+        {
+            var films = await _context.Films.ToListAsync();
+            return Ok(films);
+        }
+
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetFilm(int id)
+        {
+            var film = await _context.Films.FindAsync(id);
+
+            if (film == null)
             {
-                Id = 1,
-                Title = "Inception",
-                Description = "A mind-bending thriller",
-                AgeRating = "PG-13",
-                PosterUrl = "https://example.com/inception.jpg",
-                TicketPrice = 12.99m,
-                ReleaseDate = new DateTime(2010, 7, 16)
-            };
+                return NotFound();
+            }
 
             return Ok(film);
         }
